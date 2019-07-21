@@ -1,6 +1,7 @@
 # throwingthings
 
 > Throwing Things band website
+> https://throwingthings.band
 
 ## Build Setup
 

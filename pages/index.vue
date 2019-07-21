@@ -1,6 +1,6 @@
 <template>
   <iframe
-    style="border: 0; width: 350px; height: 786px;"
+    style="border: 0; width: 350px; height: 786px; max-width: 100%;"
     src="https://bandcamp.com/EmbeddedPlayer/album=3807523161/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
     seamless
   >

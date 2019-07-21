@@ -1,0 +1,124 @@
+{
+  "songs": [
+    {
+      "name": "An Inconvenient Riff 1",
+      "link": "https://s3.amazonaws.com/throwingthings/an-inconvenient-riff-1.mp3"
+    },
+    {
+      "name": "An Inconvenient Riff 2",
+      "link": "https://s3.amazonaws.com/throwingthings/an-inconvenient-riff-2.mp3"
+    },
+    {
+      "name": "Big Whatever 1",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-1.mp3"
+    },
+    {
+      "name": "Big Whatever 2",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-2.mp3"
+    },
+    {
+      "name": "Big Whatever 3",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-3.mp3"
+    },
+    {
+      "name": "Big Whatever 4",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-4.mp3"
+    },
+    {
+      "name": "Big Whatever 5",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-5.mp3"
+    },
+    {
+      "name": "Big Whatever 6",
+      "link": "https://s3.amazonaws.com/throwingthings/big-whatever-6.mp3"
+    },
+    {
+      "name": "Dr. Frankenstein 1",
+      "link": "https://s3.amazonaws.com/throwingthings/dr-frankenstein-1.mp3"
+    },
+    {
+      "name": "Dr. Frankenstein 2",
+      "link": "https://s3.amazonaws.com/throwingthings/dr-frankenstein-2.mp3"
+    },
+    {
+      "name": "Dr. Frankenstein 3",
+      "link": "https://s3.amazonaws.com/throwingthings/dr-frankenstein-3.mp3"
+    },
+    {
+      "name": "I wanna be Translucent 1",
+      "link": "https://s3.amazonaws.com/throwingthings/i-wanna-be-translucent-1.mp3"
+    },
+    {
+      "name": "I wanna be Translucent 2",
+      "link": "https://s3.amazonaws.com/throwingthings/i-wanna-be-translucent-2.mp3"
+    },
+    {
+      "name": "Moxie 1",
+      "link": "https://s3.amazonaws.com/throwingthings/moxie-1.mp3"
+    },
+    {
+      "name": "Moxie 2",
+      "link": "https://s3.amazonaws.com/throwingthings/moxie-2.mp3"
+    },
+    {
+      "name": "Moxie 3",
+      "link": "https://s3.amazonaws.com/throwingthings/moxie-3.mp3"
+    },
+    {
+      "name": "Ninja Exit Only 1",
+      "link": "https://s3.amazonaws.com/throwingthings/ninja-exit-only-1.mp3"
+    },
+    {
+      "name": "Ninja Exit Only 2",
+      "link": "https://s3.amazonaws.com/throwingthings/ninja-exit-only-2.mp3"
+    },
+    {
+      "name": "Ninja Exit Only 3",
+      "link": "https://s3.amazonaws.com/throwingthings/ninja-exit-only-3.mp3"
+    },
+    {
+      "name": "Responsibility 1",
+      "link": "https://s3.amazonaws.com/throwingthings/responsibility-1.mp3"
+    },
+    {
+      "name": "Responsibility 2",
+      "link": "https://s3.amazonaws.com/throwingthings/responsibility-2.mp3"
+    },
+    {
+      "name": "Responsibility 3",
+      "link": "https://s3.amazonaws.com/throwingthings/responsibility-3.mp3"
+    },
+    {
+      "name": "Responsibility 4",
+      "link": "https://s3.amazonaws.com/throwingthings/responsibility-4.mp3"
+    },
+    {
+      "name": "Responsibility 5",
+      "link": "https://s3.amazonaws.com/throwingthings/responsibility-5.mp3"
+    },
+    {
+      "name": "Sinkhole 1",
+      "link": "https://s3.amazonaws.com/throwingthings/sinkhole-1.mp3"
+    },
+    {
+      "name": "Sinkhole 2",
+      "link": "https://s3.amazonaws.com/throwingthings/sinkhole-2.mp3"
+    },
+    {
+      "name": "Stupid Question &#35;1 1",
+      "link": "https://s3.amazonaws.com/throwingthings/stupid-question-number-one-1.mp3"
+    },
+    {
+      "name": "Stupid Question &#35;1 2",
+      "link": "https://s3.amazonaws.com/throwingthings/stupid-question-number-one-2.mp3"
+    },
+    {
+      "name": "Virgo Logic 1",
+      "link": "https://s3.amazonaws.com/throwingthings/virgo-logic-1.mp3"
+    },
+    {
+      "name": "Virgo Logic 2",
+      "link": "https://s3.amazonaws.com/throwingthings/virgo-logic-2.mp3"
+    }
+  ]
+}

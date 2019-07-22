@@ -1,9 +1,22 @@
 <template>
-  <ul id="showList">
-    <li v-for="show in shows" :key="show.date">
-      <Show :show="show" />
-    </li>
-  </ul>
+  <div>
+    <h1>Upcoming shows</h1>
+    <ul id="showList" v-if="upcomingShows.length > 0">
+      <li v-for="show in upcomingShows" :key="show.date">
+        <Show :show="show" />
+      </li>
+    </ul>
+    <p>
+      We don't have any shows coming up. Sorry about that!
+      <nuxt-link to="/contact">Contact us</nuxt-link> to book or play a show with us.
+    </p>
+    <h1>Past shows</h1>
+    <ul id="showList">
+      <li v-for="show in pastShows" :key="show.date">
+        <Show :show="show" />
+      </li>
+    </ul>
+  </div>
 </template>
 
 
@@ -16,12 +29,18 @@ export default {
     Show
   },
   computed: {
-    shows: function() {
+    sortedShows: function() {
       return shows.sort(function(a, b) {
         var x = a["date"];
         var y = b["date"];
         return x > y ? -1 : x < y ? 1 : 0;
       });
+    },
+    upcomingShows: function() {
+      return this.sortedShows.filter(show => show.date > Date.now);
+    },
+    pastShows: function() {
+      return this.sortedShows.filter(show => show.date < Date.now);
     }
   }
 };

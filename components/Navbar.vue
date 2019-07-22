@@ -17,6 +17,7 @@
 <style lang="scss" scoped>
 nav {
   padding: 1em;
+  padding-left: 0;
   width: 100%;
   ul {
     display: flex;

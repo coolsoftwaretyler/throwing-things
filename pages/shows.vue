@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Upcoming shows</h1>
+    <h1 style="margin-bottom: 1em">Upcoming shows</h1>
     <ul id="showList" v-if="upcomingShows.length > 0">
       <li v-for="show in upcomingShows" :key="show.date">
         <Show :show="show" />
@@ -10,7 +10,7 @@
       We don't have any shows coming up. Sorry about that!
       <nuxt-link to="/contact">Contact us</nuxt-link> to book or play a show with us.
     </p>
-    <h1>Past shows</h1>
+    <h1 style="margin: 2em 0 1em 0">Past shows</h1>
     <ul id="showList">
       <li v-for="show in pastShows" :key="show.date">
         <Show :show="show" />
@@ -46,7 +46,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul {
   list-style: none;
   padding-left: 0;

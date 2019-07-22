@@ -20,6 +20,10 @@ nav {
   padding-left: 0;
   padding-top: 0;
   width: 100%;
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
   ul {
     display: flex;
     list-style: none;

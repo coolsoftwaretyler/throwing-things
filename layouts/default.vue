@@ -36,6 +36,10 @@ html {
   margin: 0;
 }
 
+p, ul {
+  line-height: 1.5;
+}
+
 .container {
   margin: 0 auto;
   max-width: 650px;

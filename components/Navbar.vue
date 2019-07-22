@@ -18,6 +18,7 @@
 nav {
   padding: 1em;
   padding-left: 0;
+  padding-top: 0;
   width: 100%;
   ul {
     display: flex;

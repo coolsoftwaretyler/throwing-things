@@ -1,22 +1,24 @@
 <template>
   <ul id="showList">
     <li v-for="show in shows" :key="show.date">
-      {{ show.date }}:
-      <a :href="show.event">{{ show.title }}</a>
-      , {{ show.venue }}, {{ show.location }}
+      <Show :show="show" />
     </li>
   </ul>
 </template>
 
 
 <script>
-import Shows from '~/assets/json/shows.json'
+import Show from "~/components/show.vue";
+import shows from "~/assets/json/shows.json";
 
 export default {
+  components: {
+    Show
+  },
   data: function() {
     return {
-      shows: Shows
-    }
+      shows: shows
+    };
   }
-}
+};
 </script>

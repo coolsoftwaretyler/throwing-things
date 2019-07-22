@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Navbar />
     <nuxt />
   </div>
@@ -34,5 +34,10 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 650px;
 }
 </style>

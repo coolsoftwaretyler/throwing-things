@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div class="intro" v-html="copy"></div>
     <iframe
       style="border: 0; width: 350px; height: 786px; margin: 2em auto; max-width: 100%;"
@@ -26,10 +26,7 @@ export default {
 </script>
 
 <style lang="scss">
-.container {
-  margin: 0 auto;
-  max-width: 650px;
-}
+
 .intro {
   ul {
     list-style: none;

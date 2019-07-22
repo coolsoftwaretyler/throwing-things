@@ -15,10 +15,21 @@ export default {
   components: {
     Show
   },
-  data: function() {
-    return {
-      shows: shows
-    };
+  computed: {
+    shows: function() {
+      return shows.sort(function(a, b) {
+        var x = a["date"];
+        var y = b["date"];
+        return x > y ? -1 : x < y ? 1 : 0;
+      });
+    }
   }
 };
 </script>
+
+<style>
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+</style>

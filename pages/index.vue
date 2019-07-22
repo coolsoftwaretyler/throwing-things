@@ -1,4 +1,7 @@
 <template>
+<div>
+
+<div v-html="copy"></div>
   <iframe
     style="border: 0; width: 350px; height: 786px; max-width: 100%;"
     src="https://bandcamp.com/EmbeddedPlayer/album=3807523161/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
@@ -8,4 +11,18 @@
       href="http://throwingthings.bandcamp.com/album/the-bruno-demos"
     >The Bruno Demos by Throwing Things</a>
   </iframe>
+  </div>
+
 </template>
+
+<script>
+import copy from "~/assets/markdown/index.md"
+
+export default {
+  data: function () {
+    return {
+      copy: copy
+    }
+  }
+}
+</script>

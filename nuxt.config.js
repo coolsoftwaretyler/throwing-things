@@ -31,7 +31,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/markdownit'],
   /*
    ** Build configuration
    */

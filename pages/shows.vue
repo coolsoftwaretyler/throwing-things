@@ -21,7 +21,7 @@
 
 
 <script>
-import Show from "~/components/show.vue";
+import Show from "~/components/Show.vue";
 import shows from "~/assets/json/shows.json";
 
 export default {

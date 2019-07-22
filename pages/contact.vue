@@ -23,3 +23,10 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+</style>

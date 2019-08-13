@@ -1,16 +1,6 @@
 <template>
   <div>
-    <h1 style="margin-bottom: 1em">Upcoming shows</h1>
-    <ul id="showList" v-if="upcomingShows.length > 0">
-      <li v-for="show in upcomingShows" :key="show.date">
-        <Show :show="show" />
-      </li>
-    </ul>
-    <p>
-      We don't have any shows coming up. Sorry about that!
-      <nuxt-link to="/contact">Contact us</nuxt-link> to book or play a show with us.
-    </p>
-    <h1 style="margin: 2em 0 1em 0">Past shows</h1>
+    <h1 style="margin-bottom: 1em">Shows</h1>
     <ul id="showList">
       <li v-for="show in pastShows" :key="show.date">
         <Show :show="show" />

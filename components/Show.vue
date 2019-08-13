@@ -22,6 +22,6 @@ export default {
 div {
   border-bottom: 2px black solid;
   margin-bottom: 2em;
-  padding: 1em 0;
+  padding: 0 0 1em 0;
 }
 </style>

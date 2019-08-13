@@ -103,5 +103,19 @@
     "venue": "Seventh Circle Music Collective",
     "location": "Denver, CO",
     "event": "https: //www.facebook.com/events/396073444541630/"
+  }, 
+  {    
+    "date": "2019-08-13",
+    "title": "Gray Joy (MT) / Gila Teen / Throwing Things / The Slacks",
+    "venue": "99 Kalamath St",
+    "location": "Denver, CO",
+    "event": "https://www.facebook.com/events/938288203176621"
+  },
+  {
+    "date": "2019-08-16",
+    "title": "Klaus // Throwing Things // Monkeys With Explosives",
+    "venue": "Skylark Lounge",
+    "location": "Denver, CO",
+    "event": "https://www.facebook.com/events/2599856843398689/"
   }
 ]

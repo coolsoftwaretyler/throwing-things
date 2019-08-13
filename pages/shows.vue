@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h1 style="margin-bottom: 1em">Shows</h1>
     <ul id="showList">
       <li v-for="show in pastShows" :key="show.date">
         <Show :show="show" />

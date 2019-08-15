@@ -42,6 +42,6 @@ p, ul {
 
 .container {
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 700px;
 }
 </style>

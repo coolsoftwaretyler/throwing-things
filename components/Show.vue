@@ -1,6 +1,8 @@
 <template>
   <div>
-    <p>{{ show.title }}, {{ show.venue }}, {{ show.location }}</p>
+    <p>{{ show.title }}</p>
+    <p>{{ show.venue }}</p>
+    <p>{{ show.location }}</p>
     <time :datetime="show.date">{{ date }}</time>
     <br />
     <a :href="show.event">Event</a>
